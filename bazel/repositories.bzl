@@ -41,7 +41,7 @@ def repositories():
     _maybe(
         http_archive,
         name = "com_github_mgaurav_crc32c",
-	sha256 = "d773cd6ae39fe45e2acb7bf0303410024c4ce1b34c7726817ca474c7fa624cba",
+	sha256 = "1ed572eccf0d5a29e6b44372f54bbc7a7d074e98691b4b3557f3efb70ea5d28c",
         strip_prefix = "crc32c-2085a733f348bf20a0dedbfbec7833e459a93cac",
         urls = [
             "https://github.com/mgaurav/crc32c/archive/2085a733f348bf20a0dedbfbec7833e459a93cac.tar.gz",
