@@ -59,7 +59,7 @@ def repositories():
     )
 
     _maybe(
-        new_http_archive,
+        http_archive,
 	name = "com_github_google_leveldb",
 	build_file = "@com_github_mgaurav_leveldb//bazel/third_party/leveldb:leveldb.BUILD",
 	strip_prefix = "leveldb-a7dc502e9f11c2e5c911ba45b999676c43eaa51f",
