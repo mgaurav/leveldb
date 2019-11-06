@@ -8,14 +8,14 @@ package(
 
 genrule(
     name = "port_config_h",
-    srcs = ["@com_github_cschuet_leveldb//bazel/third_party/leveldb:port_config.h"],
+    srcs = ["@com_github_mgaurav_leveldb//bazel/third_party/leveldb:port_config.h"],
     outs = ["port/port_config.h"],
     cmd = "cp $< $@",
 )
 
 genrule(
     name = "port_h",
-    srcs = ["@com_github_cschuet_leveldb//bazel/third_party/leveldb:port.h"],
+    srcs = ["@com_github_mgaurav_leveldb//bazel/third_party/leveldb:port.h"],
     outs = ["port/port.h"],
     cmd = "cp $< $@",
 )
